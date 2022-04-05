@@ -15,6 +15,6 @@ app.use(fileUpload({}))
 
 
 app.listen(PORT, () => {
-  console.log('SERVER IS RUNNING IN PORT 3005')
+  console.log(`SERVER IS RUNNING IN PORT ${PORT} `)
 })
 
