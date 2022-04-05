@@ -63,7 +63,7 @@ function ProductCard(props) {
       {hit ? <div className='iconHit'>Хит</div> : null}
       <div style={{ height: '60%' }}>
 
-        <img src={'https://rentabackendtest.herokuapp.com/' + image} />
+        <img src={`https://rentabackendtest.herokuapp.com/${image}`} />
 
 
       </div>
