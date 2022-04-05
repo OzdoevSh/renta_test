@@ -3,7 +3,8 @@ import ProductList from './components/ProductList';
 import Delivery from './components/Delivery';
 import Footer from './components/Footer';
 import { Container } from '@mui/material';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import axios from 'axios';
 
 
 function App() {
