@@ -1,0 +1,29 @@
+.circle{
+  width: 230px;
+  height: 230px;
+  border-radius: 50%;
+  background-color: #C4C4C4;
+}
+
+.section{
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-evenly;
+}
+
+.header{
+  font-size: 2em;
+  background-color: #F7F6F5
+}
+
+.subsection{
+  font-size: 1em
+}
+
+.socialMedias{
+  display: flex;
+  width: 200px;
+  justify-content: space-around;
+}
+
